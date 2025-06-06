@@ -1,0 +1,79 @@
+body {
+   font-family: 'Courier New', monospace;
+   background-color: #282c34;
+   color: #eee;
+   line-height: 1.6;
+}
+
+
+.blog {
+   margin: auto;
+   max-width: 800px;
+}
+
+
+h1 {
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+   text-align: center;
+}
+
+
+.card {
+   padding: 20px;
+   margin-bottom: 30px;
+   background-color: #343a40;
+   text-align: center;
+}
+
+.buttons {
+   padding: 20px;
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.backbuttons {
+   margin-bottom: 30px;
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+   margin: auto;
+   max-width: 500px;
+}
+
+
+a {
+ text-decoration: none;
+ color: #ff7f50;
+ }
+a:hover {
+    color: blue;
+}
+
+form {
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+   margin: auto;
+   max-width: 500px;
+}
+
+input, textarea {
+ width: 100%;
+}
+
+post {
+ max-width: 800px;
+ margin: auto;
+ }
+
+.author {
+color: gray;
+text-align: right}
+
+h2 {
+   font-size: 50px;
+   font-weight: 300;
+   color: #ff7f50;
+}
