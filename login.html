@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+  <link rel="stylesheet" href="/static/style.css/">
+</head>
+<body>
+  <div class="center">
+      <h1>Login</h1>
+       <form method="post">
+           <label>Username:</label>
+           <input type="text" name="username" required>
+           <label>Gmail:</label>
+           <input type="text" name="gmail" required>
+           <br>
+           <label>password:</label>
+           <textarea rows="1" name="password" required></textarea>
+           <button type="submit">LogIn</button>
+       </form>
+  </div>
+  <div class="backbuttons">
+        <button onclick="location.href=' {{url_for('index') }}'">Back</button>
+  </div>
+</body>
+</html>

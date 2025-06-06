@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+  <link rel="stylesheet" href="/static/style.css/">
+</head>
+<body>
+  <div class="center">
+      <h1>Create New account</h1>
+       <form method="post">
+           <label>Username:</label>
+           <input type="text" name="username" required>
+           <label>Gmail:</label>
+           <input type="text" name="gmail" required>
+           <br>
+           <label>password:</label>
+           <textarea rows="2" name="password" required></textarea>
+           <button type="submit">Create account</button>
+           {% if message %}
+            <p class="message">{{message}}</p>
+           {% endif %}
+       </form>
+  </div>
+  </div>
+  <div class="backbuttons">
+        <button onclick="location.href=' {{url_for('index') }}'">Back</button>
+  </div>
+</body>
+</html>
